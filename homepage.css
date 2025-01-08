@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    cursor: default;
+}
+
+body {
+    background-color: #9cdbd7;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body #ajlogo img {
+    display: flex;
+    position: absolute;
+    top: 35px;
+    left: 32%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+body .lineone {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    border: 1px solid black;
+}
+
+body #aesthetic {
+    position: relative;
+    background-color: white;
+    height: 80px;
+}
+
+body .linetwo {
+    position: relative;
+    margin-top: 11px;
+    border: 1px solid black;
+}
+
+body h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+body #introduction p, b, i, em {
+    text-align: center;
+    cursor: text;
+}
+
+body #small {
+    position: relative;
+    left: 0px;
+    background-color: #498c89;
+    width: 130px;
+    text-align: center;
+    top: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+body #small p {
+    cursor: text;
+}
+
+body #travellocation {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+body #travellocation #one:hover {
+    transform: scale(110%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+body #travellocation #two:hover {
+    transform: scale(110%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+body #travellocation #three:hover {
+    transform: scale(110%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+body #travellocation #four:hover {
+    transform: scale(110%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+body #travellocation #five:hover {
+    transform: scale(110%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+footer #cloud {
+    display: flex;
+    position: fixed;
+    bottom: -200px;
+    left: -15px
+}
+
+footer #cloudtwo {
+    display: flex;
+    position: fixed;
+    bottom: -200px;
+    right: -15px;
+}
